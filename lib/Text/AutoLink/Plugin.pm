@@ -1,8 +1,3 @@
-# $Id: /mirror/perl/Text-AutoLink/trunk/lib/Text/AutoLink/Plugin.pm 4207 2007-10-27T13:33:47.814555Z daisuke  $
-#
-# Copyright (c) 2006 Daisuke Maki <dmaki@cpan.org>
-# All rights reserved.
-
 package Text::AutoLink::Plugin;
 use strict;
 use warnings;
