@@ -13,7 +13,7 @@ sub process
     my $self = shift;
     my $ref  = shift;
 
-    $$ref =~ s/(https?:\/\/[A-Za-z0-9~\/._\?\&=\-%#\+:\;,\@\']+)/
+    $$ref =~ s/(https?:\/\/[A-Za-z0-9~\/._!\?\&=\-%#\+:\;,\@\']+)/
         $self->linkfy(href => $1)
     /gex;
 }
