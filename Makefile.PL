@@ -7,5 +7,5 @@ requires('HTML::TreeBuilder');
 requires('Module::Pluggable');
 requires('URI');
 
-auto_install;
+auto_set_repository;
 WriteAll;
