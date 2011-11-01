@@ -11,7 +11,7 @@ use Module::Pluggable
 ;
 
 BEGIN {
-    $VERSION = '0.03000'
+    $VERSION = '0.04000'
 }
 
 sub new
